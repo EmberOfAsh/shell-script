@@ -1,9 +1,9 @@
 #!/bin/bash
 
-#./copy.sh /mnt/d/ping /mnt/d/test 2018-12-28 
+#./copyNew.sh /mnt/d/ping /mnt/d/test 2018-12-28 
 
 if [ $# -ne 3 ];then
-	echo "请输入 $1:比较目录，$2:保存目录，$3:比较时间"
+	echo "请输入 param1:比较目录，param2:保存目录，param3:比较时间"
 	exit 1
 fi
 echo "输入路径：$1"

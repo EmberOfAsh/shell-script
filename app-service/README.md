@@ -1,5 +1,12 @@
 # springboot war linux 控制脚本
 
+## 下载脚本
+
+```linux
+wget https://raw.githubusercontent.com/EmberOfAsh/shell-script/master/app-service/app.service.sh;
+wget https://raw.githubusercontent.com/EmberOfAsh/shell-script/master/app-service/app.config;
+```
+
 ## 修改配置文件
 修改app.config, 配置如下配置名
 

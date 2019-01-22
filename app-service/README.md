@@ -6,11 +6,14 @@
 #应用名称
 >app_name="broadcast"
 
-#应用目录,war文件存在路径
->app_home="/home/zltel/broadcast/"
 
 #启动app文件名
 >app_file_name="broadcast*.war"
+
+#应用目录,war文件存在路径
+#默认为配置文件所在目录,如果不是则需要更改
+>app_home="`dirname $0`/"
+
 
 ## 启动
 ```Linux
